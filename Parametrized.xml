@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Parametrized Suite">
+  <test thread-count="5" name="ParametrizationTest">
+  
+  <!-- parameters -->
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="product" value="hp"/>
+  <parameter name="url" value="https://amazon.com"/>
+    <classes>
+      <class name="testNGbasics.ParametrizationXML"/>
+    </classes>
+  </test> <!-- ParametrizationTest -->
+</suite> <!-- Parametrized Suite -->
