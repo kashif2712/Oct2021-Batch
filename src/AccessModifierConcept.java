@@ -21,6 +21,7 @@ public class AccessModifierConcept {
 		 //public access:
 		amc.a = "Learning access modifier concept";
 		System.out.println(amc.upperCasingString());
+		System.out.println(amc.upperCasingString());
 		
 		
 		
